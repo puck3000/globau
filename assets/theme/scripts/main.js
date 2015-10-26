@@ -1,0 +1,1 @@
+function toggleNav(){$("#wrapper").hasClass("show-nav")?$("#wrapper").removeClass("show-nav"):$("#wrapper").addClass("show-nav")}$(function(){$(".toggle-nav").click(function(){toggleNav()})});
